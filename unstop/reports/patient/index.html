@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedPulse-Reports</title>
+    <link rel="icon" href="../../image/logo.jpg">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f0ff; /* Light purple background */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h2 {
+            font-size: 1.5em;
+            color: #6a0dad; /* Dark purple color */
+        }
+        
+        .appointment {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        
+        .appointment:hover {
+            transform: scale(1.02); /* Subtle zoom on hover */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        
+        p {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        
+        strong {
+            color: #6a0dad;
+        }
+        
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 20px 0;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .appointment {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        
+    </style>
+</head>
+<body>
+    <script src="script.js"></script>
+</body>
+</html>
